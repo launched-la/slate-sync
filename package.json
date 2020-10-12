@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      "@shopify/slate-sync@1.0.0-beta.16",
+      "/Users/daniel/src/hb-theme"
+    ]
+  ],
+  "_from": "@shopify/slate-sync@1.0.0-beta.16",
+  "_id": "@shopify/slate-sync@1.0.0-beta.16",
+  "_inBundle": false,
+  "_integrity": "sha512-ElqDUsh6MV12ui9b36kdL5IMKtt+KNzAOvMBlcxx7rCn8IfSfHe/NWF+flfRBAJZOJeKLaEp/hrmJfZnMH5XoA==",
+  "_location": "/@shopify/slate-sync",
+  "_phantomChildren": {
+    "ansi-escapes": "3.2.0",
+    "chalk": "2.3.2",
+    "cliui": "4.1.0",
+    "decamelize": "1.2.0",
+    "exit": "0.1.2",
+    "fs.realpath": "1.0.0",
+    "get-caller-file": "1.0.3",
+    "graceful-fs": "4.2.0",
+    "import-local": "1.0.0",
+    "inflight": "1.0.6",
+    "inherits": "2.0.4",
+    "is-ci": "1.2.1",
+    "istanbul-api": "1.3.7",
+    "istanbul-lib-coverage": "1.2.1",
+    "istanbul-lib-instrument": "1.10.2",
+    "istanbul-lib-source-maps": "1.2.6",
+    "jest-changed-files": "22.4.3",
+    "jest-config": "22.4.4",
+    "jest-environment-jsdom": "22.4.3",
+    "jest-get-type": "22.4.3",
+    "jest-haste-map": "22.4.3",
+    "jest-message-util": "22.4.3",
+    "jest-regex-util": "22.4.3",
+    "jest-resolve-dependencies": "22.4.3",
+    "jest-runner": "22.4.4",
+    "jest-runtime": "22.4.4",
+    "jest-snapshot": "22.4.3",
+    "jest-util": "22.4.3",
+    "jest-validate": "22.4.4",
+    "jest-worker": "22.4.3",
+    "locate-path": "2.0.0",
+    "micromatch": "2.3.11",
+    "minimatch": "3.0.4",
+    "node-notifier": "5.4.0",
+    "once": "1.4.0",
+    "os-locale": "2.1.0",
+    "path-is-absolute": "1.0.1",
+    "realpath-native": "1.1.0",
+    "require-directory": "2.1.1",
+    "require-main-filename": "1.0.1",
+    "rimraf": "2.6.3",
+    "set-blocking": "2.0.0",
+    "slash": "1.0.0",
+    "string-length": "2.0.0",
+    "string-width": "2.1.1",
+    "strip-ansi": "4.0.0",
+    "which": "1.3.1",
+    "which-module": "2.0.0",
+    "y18n": "3.2.1",
+    "yargs-parser": "8.1.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@shopify/slate-sync@1.0.0-beta.16",
+    "name": "@shopify/slate-sync",
+    "escapedName": "@shopify%2fslate-sync",
+    "scope": "@shopify",
+    "rawSpec": "1.0.0-beta.16",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-beta.16"
+  },
+  "_requiredBy": [
+    "/@shopify/slate-tools"
+  ],
+  "_resolved": "https://registry.npmjs.org/@shopify/slate-sync/-/slate-sync-1.0.0-beta.16.tgz",
+  "_spec": "1.0.0-beta.16",
+  "_where": "/Users/daniel/src/hb-theme",
+  "author": {
+    "name": "Shopify"
+  },
+  "bugs": {
+    "url": "https://github.com/Shopify/slate/issues"
+  },
+  "dependencies": {
+    "@shopify/slate-analytics": "1.0.0-beta.16",
+    "@shopify/slate-config": "1.0.0-beta.14",
+    "@shopify/slate-env": "1.0.0-beta.16",
+    "@shopify/themekit": "launched-la/themekit",
+    "array-flatten": "^2.1.1",
+    "chalk": "2.3.2",
+    "figures": "^2.0.0",
+    "inquirer": "^5.0.1",
+    "jest": "22.4.2",
+    "react-dev-utils": "0.5.2"
+  },
+  "description": "Slate's Shopify API client which handles all theme development requests",
+  "engine": ">=8.9.4",
+  "gitHead": "b666c11696b07fa2f38b6e7d9fea3d61f210ffbd",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@shopify/slate-sync",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shopify/slate/tree/1.x/packages/slate-sync"
+  },
+  "version": "1.0.0-beta.16"
+}

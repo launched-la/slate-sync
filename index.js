@@ -127,7 +127,7 @@ function promiseThemekitDeploy(cmd, files) {
     themekit(
       {
         args: [
-          cmd,
+          cmd == 'upload' ? 'deploy' : cmd,
           '--no-update-notifier',
           ..._generateConfigFlags(),
           ...files,

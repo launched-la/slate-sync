@@ -11,6 +11,7 @@ let deploying = false;
 let filesToDeploy = [];
 
 function maybeDeploy() {
+  console.log('MAYBE');
   if (deploying) {
     return Promise.reject(new Error('Deploy already in progress.'));
   }
